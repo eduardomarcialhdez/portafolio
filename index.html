@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Eduardo Marcial Hernández</title>
+</head>
+<body style="background-color: #0039553d;">
+        <nav style="position: fixed; top: 0; left: 0; z-index: 1000; ">
+            <div class="nav-wrapper" style="background-color: #2670a1;">
+                <a href="#" class="brand-logo center">
+                    <img src="images/desarrollador.png" alt="" width="50">Mi Portafolio</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div style="margin-top: 60px;"></div>
+        <ul class="sidenav" id="mobile-demo" style="margin-top: 60px;">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div style="margin-top: 60px;"></div>
+        <div id="" class="section" style="background-color: #2670a1af; ">
+            <div class="row container">
+                <div class="row">
+                    <div class="col s3 l5 m5"></div>
+                    <div class="col s6 l2 m2">
+                        <img class="responsive-img materialboxed" 
+                        style="display: inline-block;
+                        padding: 5px;
+                        border-radius: 20%;
+                        background: linear-gradient(102deg,#265f9c, #5e5a63);" 
+                        src="images/yo.jpg" alt="">
+                    </div>
+                    <div class="col s3 l5 m5"></div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <h3>Hola que tal!!! Soy <b>Eduardo Marcial Hernández</b></h3>
+                    </div>
+                    <div class="col s12">
+                        <p> <center> 
+                            <h5> "La programación es el lenguaje que te permite convertir tus sueños en realidad, un algoritmo a la vez." </h5> 
+                        </center></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3 l5 m5"></div>
+                    <div class="col s6 l2 m2">
+                        <img class="responsive-img materialboxed" src="images/tecnologia.png" alt="">
+                    </div>
+                    <div class="col s3 l5 m5"></div>
+                </div>
+            </div>
+        </div>
+        <div id="sobre-mi" class="section" style="background-color: #2670a19f;">
+            <div class="col s12 container">
+                <h1> Algo<b> sobre mí</b></h1>
+                <div class="row">
+                    <div class="row">
+                        <div class="col s0 l0 m0"></div>
+                        <div class="col s12 l8 m8">
+                            <div class="row" style="border-radius: 30px; 
+                            background: linear-gradient(35deg,#000000, #ff0000); padding: 20px;">
+                                <div class="col s12">
+                                    <h3 style="color: #fff;">Conoce a <b>Eduardo</b></h3>
+                                </div>
+                                <div class="col s12">
+                                    <p style="color: #fff;">Actualmente estudiante de la carrera de Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de la Huasteca Hidalguense. Cuento con un título de Técnico Superior Universitario en Tecnologías de la Información: Área Desarrollo de Software Multiplataforma emitido por la UTHH y un título de Técnico en Programación emitido por el Colegio de Estudios Cientificos y Tecnológicos del Estado de Hidalgo (CECyTEH).</p>
+                                    <p style="color: #fff;">Tengo buena lógica de programación(creo), me gusta el orden, documentar y resolver problemas. No soy entusiasta del desarrollo web, pero me gusta contribuir en cuanto la experiencia de usuario se trata. No muy autodidacta pero siempre dispuesto a aprender.</p>
+                                    <p style="color: #fff;">Poco paciente pero con espiritu colaborador, dispuesto a aprender tanto de otros como de mi mismo, gustoso de dar apoyo a quien lo necesite.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos" class="section" style="background-color: #2670a18f;">
+            <div class="col s12 container">
+                <h1> <b>Proyectos </b> propios y donde he colaborado</h1>
+            </div>
+        </div>
+        <div id="testimonios" class="section" style="background-color: #2670a17f;">
+            <div class="col s12 container">
+                <h1> <b>Testimonios </b>de colaboradores</h1>
+            </div>
+
+        </div>
+        <div id="contacto" class="section" style="background-color: #2670a16f;">
+            <div class="col s12 container">
+                <h1> <b>Contacto</b></h1>
+            </div>
+
+        </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>    
+</body>
+</html>
